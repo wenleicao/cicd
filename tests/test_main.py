@@ -1,7 +1,8 @@
 import pytest
-import sys
-sys.path.append(r"D:\cicd\app")  # Add the app directory to the system path
-from main import app
+# import sys
+# sys.path.append(r"D:\cicd\app")  # Add the app directory to the system path
+from ..app.main import app
+#from main import app
 #print(app.__doc__)
 
 @pytest.fixture
