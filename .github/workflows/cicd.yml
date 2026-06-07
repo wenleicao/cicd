@@ -25,7 +25,7 @@ jobs:
 
       - name: Run tests with pytest
         run: |
-          python -m pytest tests.test_main.py
+          python -m pytest tests/test_main.py
 
   build-and-publish:
     needs: test
