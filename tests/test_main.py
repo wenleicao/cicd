@@ -1,5 +1,7 @@
 import pytest
-from app.main import app
+import sys
+sys.path.append(r"D:/cicd/app")  # Add the app directory to the system path
+from main import app
 
 @pytest.fixture
 def client():
